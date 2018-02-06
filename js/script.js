@@ -16,6 +16,19 @@ if ($('#home-v1-testimonial-slider').length) {
 
 $(document).ready(function(){
 	
+	
+	$("#trainers-gallery-slider .owl-carousel").owlCarousel({
+		singleItem: true,
+        stopOnHover: true,
+        slideSpeed: 400,
+        pagination: true,
+        mouseDrag: true,
+        touchDrag: true,
+        lazyLoad: true,
+		items: 4
+		});
+	
+	
 	$("#home-v1-testimonial-slider").owlCarousel({
 		singleItem: true,
         stopOnHover: true,
