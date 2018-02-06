@@ -176,37 +176,43 @@
 	<section class="zapisatsya">
 		<div class="parallax">
 			<div class="container">
-			<h2>записаться на бесплатную тренировку</h2>
-			<div class="row">
-				<form id="zapisatsya" class="col-lg-12 row">
+				<h2>записаться на бесплатную тренировку</h2>
+			
+				<form id="zapisatsya">
+					<div class="row">
 					<div class="left-form col-lg-4">
 						<input type="text" name="name" placeholder="Имя">
 						<input type="text" name="lastname" placeholder="Фамилия">
 						<input type="text" name="phone" placeholder="Телефон">
 					</div>
-					<div class="right-form col-lg-8 row">
+					<div class="right-form col-lg-8">
+					<div class="row">
 						<h4> Выберете клуб, куда хотите записаться</h4>
 						<input id="club1" type="radio" name="clab-check" value="club1">
-						<label class="club col-lg-3" for="club1"> Петровско-Разумовская ул. Дубнинская 12а +7(916)266-66-22</label>
+						<label class="club col-lg-4" for="club1"> Петровско-Разумовская ул. Дубнинская 12а +7(916)266-66-22</label>
 						<input type="radio" name="clab-check" id="club2" value="club2">
-						<label class="club col-lg-3" for="club2">Чертаново ул. Чертановская 7А +7(916)266-66-22</label>
+						<label class="club col-lg-4" for="club2">Чертаново ул. Чертановская 7А +7(916)266-66-22</label>
 						<input type="radio" name="clab-check" id="club3" value="club3">
-						<label class="club col-lg-3 last-club" for="club3"> Щербинка ул. Железнодорожная 44 +7(916)266-66-22</label>
+						<label class="club col-lg-4 last-club" for="club3"> Щербинка ул. Железнодорожная 44 +7(916)266-66-22</label>
 						<input type="checkbox" name="agreement" id="agreement" value="true">
 						<label class="agreement col-lg-12" for="agreement">Нажимая кнопку "записаться", я даю согласие на обработку моих персональных данных, в соответствии с федеральным законом от 27.07.2006 года № 152-ФЗ "О персональных данных" на условиях и для целей, определенных в Политике конфиденциальности персональных данных</label>
 						<button type="submit" name="zapisatsya-button" form="zapisatsya">Записаться</button>
 					</div>
+					</div>
+					</div>
 				</form>
-			</div>
+			
 			</div>
 		</div>
 	</section>
 	<section class="club-card" id="club-card">
+		<div class="container">
 		<h2>клубные карты</h2>
 		<div class="separator">
 			<img src="img/separator.png">
 		</div>
 		<p class="slogan">Одна карта - сотни возможностей, выбери свою</p>
+		</div>
 		<div class="row">
 			<div class="col-lg-five card-descriptoin">
 				<img src="img/card.jpg">
@@ -256,12 +262,13 @@
 					</p>
 				</div>	
 			</div>
+		
 		</div>
 	</section>
 	<section class="skidka-na-kartu">
 		<div class="parallax">
-		<h2>получить скидку на карту</h2>
 		<div class="container">
+			<h2>получить скидку на карту</h2>
 			<form id="skidka" class="row">
 				<div class="skidka-left col-lg-6">
 					<input type="text" name="name" placeholder="Имя">
