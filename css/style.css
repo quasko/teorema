@@ -577,6 +577,7 @@ button:hover {background: #175f08;}
     min-height: 1px;
     padding-right: 10px;
     padding-left: 10px;
+	text-align: center;
 }
 
 .col-xs-five {
@@ -1278,8 +1279,11 @@ background-attachment:fixed;
 	#trainers-gallery-slider .owl-nav .owl-prev {
 		left: 0;
 	}
-	.phone-email .top-email::before {top: 3px;
-	font-size: 20px;}
+	.phone-email .top-email::before,
+	.phone-email .top-phone::before {
+		top: 3px;
+		font-size: 20px;
+	}
 	.spisok-klubov {left: -580px;}
 }
 
@@ -1292,4 +1296,12 @@ background-attachment:fixed;
 	position: absolute;
     top: 50%;
     transform: translateY(-50%);
+}
+.phone-fixed,
+.email-fixed {
+	font-size: 15px;
+}
+
+.contacts .phone-email {
+	line-height: 46px;
 }
