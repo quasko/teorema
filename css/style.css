@@ -1142,7 +1142,13 @@ background-attachment:fixed;
 	font-size: 15px;
 	margin-left: 70px;}
 	.contacts .spisok-klubov li:before {left: -55px;}
-	.promo_1 {background-position: -520px -0px;}
+	/*.promo_1 {background-position: -520px -0px;}*/
+	.promo_1 {
+		background-position: center;
+		}
+	.promo_1 p{	
+		font-size: 16px;
+	}
 	.promo_2 {display: none;}
 	.usluga-description {padding-bottom: 10px;}
 	.usluga-description h3 {min-height: 3px;}
